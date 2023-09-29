@@ -2,6 +2,15 @@
 % Nombre, apellido
 % Nombre, apellido
 push 6
-% codigo que calcula el factorial del valor arriba de la pila
-% en este caso, 6!
+dup
+L1: push 1
+sub
+dup
+store 1
+mul
+load 1
+dup
+push 1
+jmpgt L1
+pop
 

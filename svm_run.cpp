@@ -11,7 +11,7 @@
 
 int main(int argc, const char* argv[]) {
 
-  bool useparser = false;
+  bool useparser = true;
   SVM* svm;
 
   if (useparser) {
@@ -33,7 +33,7 @@ int main(int argc, const char* argv[]) {
 
   // test scanner
 
-  /*
+  
   Token* tk = scanner.nextToken();
   while (tk->type != Token::END) {
     cout << "next token " << tk << endl;
@@ -42,7 +42,8 @@ int main(int argc, const char* argv[]) {
   }
   cout << "last token " << tk << endl;
   delete tk;
-  */
+  
+  
  
 
 
