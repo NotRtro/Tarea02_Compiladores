@@ -3,6 +3,7 @@
 ## Autores:
 * Rodo Vilcarromero
 * Ronaldo Flores
+* Gabriel Espinoza
 
 ## Implementaciones
 
